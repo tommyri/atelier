@@ -1,0 +1,29 @@
+{
+  "name": "atelier-blossom-client",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "node .output/server/index.mjs",
+    "preview": "vite preview",
+    "test": "node --test tests/unit/*.test.mjs",
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "node --test tests/e2e/*.test.mjs",
+    "test:responsive": "node --test tests/e2e/responsive-qa.test.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.169.1",
+    "@tanstack/react-start": "^1.167.63",
+    "nitro": "^3.0.260429-beta",
+    "nostr-tools": "^2.23.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "playwright": "^1.59.1",
+    "vite": "^8.0.10"
+  }
+}

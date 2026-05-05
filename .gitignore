@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build outputs
+.output/
+.next/
+dist/
+
+# local tooling/cache
+.tanstack/
+.vite/
+.DS_Store
+*.log
+
+# test artifacts
+test-artifacts/
+
+# environment
+.env
+.env.*
+!.env.example
